@@ -5,3 +5,7 @@ plugins {
 dependencies {
     implementation("org.apache.commons:commons-csv:1.11.0")
 }
+
+repositories {
+    mavenCentral()
+}
